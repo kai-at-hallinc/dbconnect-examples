@@ -166,3 +166,8 @@ cython_debug/
 notebook/.vscode
 notebook/.databricks
 python/.idea
+
+.databricks
+
+# secrets
+databricks_connect.ini

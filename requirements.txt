@@ -1,0 +1,16 @@
+python==3.11
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+plotly
+jupyter
+notebook
+pyarrow
+nbconvert>=5.0
+nbformat
+ipykernel
+ipython
+jupyterlab
