@@ -1,7 +1,5 @@
 {
-    "python.envFile": "${workspaceFolder}\\.databricks\\.databricks.env",
-    "databricks.python.envFile": "${workspaceFolder}/.env",
+    "databricks.python.envFile": "${workspaceFolder}/venv",
     "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
-    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
-    "python.analysis.typeCheckingMode": "basic"
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
 }
