@@ -1,5 +1,22 @@
 {
     "databricks.python.envFile": "${workspaceFolder}/venv",
     "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
-    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "azadesqlserver.database.windows.net",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "azadesql",
+            "database": "azadesqldb",
+            "username": "sqladmin",
+            "password": "Password123!"
+        }
+    ]
 }
